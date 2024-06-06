@@ -2,7 +2,7 @@ package org.questions.arrays;
 
 public class ImplementStack {
 
-    int arr[] = new int[5];
+    int[] arr = new int[5];
     int top = -1;
     void push(int data) {
         System.out.println("Pushed : " + data);
