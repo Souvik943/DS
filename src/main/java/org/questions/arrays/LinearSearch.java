@@ -1,4 +1,4 @@
-package org.questions.arrays.search;
+package org.questions.arrays;
 
 public class LinearSearch {
     public static void main(String[] args) {
