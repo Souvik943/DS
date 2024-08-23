@@ -1,8 +1,8 @@
 package org.questions.linkedlists;
 
-//LC - 141 - Detect loop/cycle in a linked list
+//LC - 142 - Detect the starting of the loop/cycle in linked list
+public class LC_142 {
 
-public class LC_141 {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(3);
@@ -10,10 +10,10 @@ public class LC_141 {
         l1.next.next.next = new ListNode(7);
         l1.next.next.next.next = l1;
 
-        System.out.println(hasCycle(l1));
+        System.out.println(detectCycle(l1));
     }
 
-    static boolean hasCycle(ListNode head) {
+    public static ListNode detectCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
 
@@ -22,10 +22,13 @@ public class LC_141 {
             fast = fast.next.next;
 
             if(slow == fast) {
-                return true;
+                while(head != slow) {
+                    slow = slow.next;
+                    head = head.next;
+                }
+                return slow;
             }
         }
-
-        return false;
+        return null;
     }
 }
