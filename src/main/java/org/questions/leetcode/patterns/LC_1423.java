@@ -1,4 +1,4 @@
-package org.questions.patterns;
+package org.questions.leetcode.patterns;
 
 //LC - 1423 - Maximum Points You Can Obtain from Cards
 

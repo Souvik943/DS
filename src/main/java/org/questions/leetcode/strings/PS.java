@@ -1,4 +1,4 @@
-package org.questions.strings;
+package org.questions.leetcode.strings;
 
 
 // Check if a string is a palindrome

@@ -1,4 +1,4 @@
-package org.questions.linkedlists;
+package org.questions.leetcode.linkedlists;
 
 import java.util.Stack;
 

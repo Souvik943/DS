@@ -1,4 +1,4 @@
-package org.questions.strings;
+package org.questions.leetcode.strings;
 
 import java.util.Arrays;
 

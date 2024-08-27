@@ -1,4 +1,4 @@
-package org.questions.linkedlists;
+package org.questions.leetcode.linkedlists;
 
 //LC - 142 - Detect the starting of the loop/cycle in linked list
 public class LC_142 {

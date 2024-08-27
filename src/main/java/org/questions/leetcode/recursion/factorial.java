@@ -1,4 +1,4 @@
-package org.questions.recursion;
+package org.questions.leetcode.recursion;
 
 public class factorial {
 
